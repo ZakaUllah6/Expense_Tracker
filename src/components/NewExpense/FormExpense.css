@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color: #222222;
+}
+.input-value {
+  display: flex;
+  font-size: 32px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  border-radius: 20px;
+}
+.label {
+  margin-right: 10px;
+  font-family: monospace;
+}
+
+.input-value input {
+  width: 170px;
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
